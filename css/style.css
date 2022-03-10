@@ -16,9 +16,11 @@
   /*Der Header soll ein wenig eingerückt werden, beide Varianten sind möglich  */
   header {
     margin: 30px;
-    position: relative;
     /* max-width: 80%;
     margin: 0 auto; */
+    
+    position: relative;
+    margin-bottom: 100px;
   }
   
   /* Der Schriftzug */
