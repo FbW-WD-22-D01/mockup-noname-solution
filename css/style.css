@@ -14,12 +14,12 @@
   }
   
   /* HEADER */
-  /*Der Header soll ein wenig eingerückt werden, beide Varianten sind möglich  */
+  /*Der Header soll ein wenig eingerückt werden */
   header {
     margin: 30px;
+    margin-bottom: 100px;
     position: relative;
-    /* max-width: 80%;
-    margin: 0 auto; */
+
   }
   
   /* Der Schriftzug */
@@ -93,62 +93,72 @@
   }
 
 
-
+/* SECTION 2 */
 
   .services {
     background-color: #68e1fd;
-    height: 1000px;
+    height: 100vh;
   }
-  
+
+  /* Die erste Textbox in der Mitte */
   .description {
     text-align: center;
-    margin: 0px 0px 100px 0;
+    margin-bottom: 100px;
   }
   
   .services-heading {
     font-size: 4rem;
     font-weight: 700;
-    color: var(--header-color);
-    margin: 40px 0 5px 0;
+    color: #000f37;
+    margin-bottom: 20px;
     padding: 80px 0 20px 0;
   }
   
+  /* Der Text wird zentriert, dafür nutzen wir margin: 0 auto auf dem div container */
+  /* Wieviel Platz der Text hat legen wir auch über das div Element fest */
   .services-text {
     font-size: 1.6rem;
-    color: var(--paragraph-color);
+    color: #4f4f4f;
     max-width: 33.3%;
     margin: 0 auto;
+    line-height: 1.75;
   }
   
-  .card-content {
-    display: inline-block;
-    width: 50%;
-  }
+  /* Hier die 2. Box mit der LIste und Bild*/
   .card {
+    position: relative;
     width: 70%;
-    height: 500px;
+    height: 55vh;
     background-color: #ffffff;
     margin: 0 auto;
-    /* box-shadow: 0px 0px 10px rgb(145, 145, 145); */
+   
   }
-  
+
+  .card-content {
+      width: 50%;
+  }
+ 
+  /* Wie ihr die Listenelemente ausrichtet ist euch überlassen, geht auch über postion */
   .service-list {
     margin: 0px 50px;
     padding: 90px 0px 0px 70px;
+    /* position: absolute;
+    top: 80px;
+    left: 150px; */
   }
   
+  /* Die Listenelemente bekommen ein padding für den größeren Abstand zueinander */
   .service-list-item {
     list-style-type: none;
     font-weight: 700;
     font-size: 2.4rem;
     padding: 15px;
   }
-  .service-list-item > svg {
-    vertical-align: middle;
-  }
+
+/* Das Image wird ausgerichtet */
   .services-image {
-    float: right;
-    margin: 70px 100px 0px 0px;
-    padding: 0px 50px 0px 0px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
   }
   
