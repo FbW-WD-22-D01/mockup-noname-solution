@@ -162,3 +162,35 @@
     right: 50px;
   }
   
+
+/* FOOTER */
+
+footer {
+  background-color: #ffffff;
+  height: 100px;
+}
+
+.wrapper {
+  padding: 50px 30px;
+  position: relative;
+}
+.copyright {
+  font-size: 1.6rem;
+  color: #000f37;
+}
+/* Float funktioniert natürlich auch, um Elemente rechts anzuordnen */
+.sm-icon-list {
+  float: right;
+  /* position: absolute;
+  right: 20px;
+  top: 50px; */
+}
+.sm-icon-list-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.sm-icon {
+  text-decoration: none;
+  color: #000f37;
+}
