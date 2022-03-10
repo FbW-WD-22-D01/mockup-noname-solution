@@ -13,6 +13,7 @@
     padding: 0;
   }
   
+  /* HEADER */
   /*Der Header soll ein wenig eingerückt werden, beide Varianten sind möglich  */
   header {
     margin: 30px;
@@ -33,4 +34,62 @@
     right: 0;
     top: 0;
   }
+
+/* SECTION 1  */
+/* Das ist der Container für die section, postion relative, damit das Bild mit absolute angeordnet werden kann */
+.hero {
+    position: relative;
+    margin: 60px;
+    height: 500px;
+}
+  
+  .hero-content {
+    margin-top: 40px;
+    padding: 20px;
+    display: inline-block;
+    width: 50%;
+  }
+  
+  .hero-heading {
+    font-size: 5.2rem;
+    color: #000f37;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  
+  /* größere Zeilanabstände erreicht ihr mit line-height */
+  .hero-text {
+    font-size: 1.8rem;
+    color: #4f4f4f;
+    width: 70%;
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+/* Bildern eine feste Größe geben */
+  .hero-image > img {
+    width: 600px;
+  }
+  
+  .hero-btn {
+    margin: 40px 0 0 0;
+    padding: 14px 24px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background-color: #68e1fd;
+    color: #000f37;
+  }
+  
+  .hero-btn:hover {
+    color: #68e1fd;
+    background-color: #000f37;
+  }
+
   
